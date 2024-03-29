@@ -1,0 +1,13 @@
+* {box-sizing: border-box;}
+body {background-color: #FEFEFE;}
+header {text-align: center;}
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: auto;
+    gap: 2em;
+}
+
+img {
+    box-shadow: 10px 10px 10px #777777;
+}
