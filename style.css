@@ -65,4 +65,10 @@ nav ul {
     background-color: #f44336;
     width: 150px;
 }
-/* .w3-main,#main{transition:margin-left .4s} */
+label, input {
+    display:table-cell;
+    margin-bottom: 10px;
+  }
+button {
+    margin-right: 20px;
+}
