@@ -68,7 +68,12 @@ nav ul {
 label, input {
     display:table-cell;
     margin-bottom: 10px;
-  }
+}
+
 button {
     margin-right: 20px;
+}
+
+footer {
+    text-align: center;
 }
