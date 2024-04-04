@@ -1,4 +1,4 @@
-.hover-white:hover{
+.menu-item:hover{
     color:#000000;
     background-color:#ffffff;
 }
@@ -7,12 +7,14 @@
     width:200px;
     position:fixed;   
     color:#ffffff;
-    background-color:#f44336;
+    background-color:#7992F2;
     font-size:18px;
     left:0;
     top:0;
+    font-weight:bold;
+
 }
-.bar-item{
+.menu-item{
     width:100%;
     display:block;
     padding:8px 0px;
@@ -30,9 +32,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
 }
-.xxxlarge{
-    font-size:48px;
-}
+
 .container{
     padding:0.01em 16px;
     margin-top:16px;
@@ -62,7 +62,7 @@ nav ul {
     position:absolute;
     top: 0;
     left: 201px;
-    background-color: #f44336;
+    background-color: #7992F2;
     width: 150px;
 }
 label, input {
@@ -72,6 +72,19 @@ label, input {
 
 button {
     margin-right: 20px;
+}
+
+#head {
+    margin-left: 250px;
+    margin-right: 40px;
+}
+
+.companyName {
+    text-align:center;
+}
+
+#wrapper {
+    margin-top:75px;
 }
 
 footer {
