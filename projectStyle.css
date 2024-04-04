@@ -1,29 +1,33 @@
-.menu-item:hover{
-    color:#000000;
-    background-color:#ffffff;
-}
 .sidebar{
     height:100%;
     width:200px;
     position:fixed;   
     color:#ffffff;
-    background-color:#7992F2;
+    background-color:#008793;
     font-size:18px;
     left:0;
     top:0;
     font-weight:bold;
-
+    padding-top: 6em;
 }
+
 .menu-item{
     width:100%;
     display:block;
-    padding:8px 0px;
-    text-align:left;
+    padding:6px;
+    padding-left: 12px;
+    text-align: left;
     border:none;
     white-space:normal;
     float:none;
-    outline:0;
+    /* outline:0; */
 }
+
+.menu-item:hover{
+    color:#008793;
+    background-color:#ffffff;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,19 +56,26 @@ nav ul {
     padding: 10px;
     border-bottom: 1px solid #cccccc;
     position: relative;
+    border: none;
 }
 .menu ul li:hover ul {
     display: block;
-    
+
 }
 .menu ul li ul {
     display: none;
     position:absolute;
     top: 0;
-    left: 201px;
-    background-color: #7992F2;
+    left: 200px;
+    background-color: #008793;
     width: 150px;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
 label, input {
     display:table-cell;
     margin-bottom: 10px;
