@@ -88,8 +88,8 @@ button {
 }
 
 #content {
-    margin-left: 320px;
-    margin-right: 120px;
+    padding-left: 320px;
+    padding-right: 120px;
     /* width: 980px; */
     /* margin-left: auto;
     margin-right: auto; */
