@@ -20,6 +20,8 @@
     border:none;
     white-space:normal;
     float:none;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     /* outline:0; */
 }
 
@@ -86,13 +88,30 @@ button {
 }
 
 #content {
-    margin-left: 250px;
-    margin-right: 40px;
+    margin-left: 260px;
+    margin-right: 80px;
+    /* width: 980px; */
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 header {
     text-align: center;
     padding-top: 2em;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #008793;
+}
+
+h2 {
+    color:#008793
+}
+
+h3 {
+    color:#006871;
 }
 
 .companyName {
@@ -103,6 +122,31 @@ header {
     margin-top:75px;
 }
 
+.contactUs {
+    padding-top: 2px;
+    background-color: #e8fdff;
+    border-radius: 18px;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.spa_image {
+    text-align: center;
+    padding-top: 1em;
+}
+
+img {
+    border-radius: 12px;
+}
+
 footer {
     text-align: center;
 }
+
+/* @media (min-width:600px) {
+    #wrapper {
+        margin: auto;
+        width: 80%;
+        header span {padding-left: 25%;}
+    }
+} */
