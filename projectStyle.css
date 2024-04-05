@@ -85,9 +85,14 @@ button {
     margin-right: 20px;
 }
 
-#head {
+#content {
     margin-left: 250px;
     margin-right: 40px;
+}
+
+header {
+    text-align: center;
+    padding-top: 2em;
 }
 
 .companyName {
