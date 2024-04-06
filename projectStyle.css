@@ -148,6 +148,22 @@ h3 {
 
 }
 
+.send_message {
+    width: 210px;
+    background-color: #008793;
+    border-radius: 20px;
+    padding: 6px;
+    text-align: center;
+}
+
+.send_message a {
+    color: #ffffff;
+}
+
+p a{
+    color: #008793;
+}
+
 img {
     border-radius: 12px;
 }
@@ -156,6 +172,10 @@ footer {
     text-align: center;
     color: #008793;
     text-transform: uppercase;
+    font-size: small;
+    padding-top: 2em;
+    padding-bottom: 2px;
+    text-decoration: overline underline;
 }
 
 @media (min-width:1024px) {
