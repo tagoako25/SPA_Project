@@ -197,3 +197,18 @@ footer {
 ul{
     list-style-type: none;
 }
+
+#yeshealth:checked ~ .checkbox-container,
+#yesallergy:checked ~ .checkbox-container {
+display:inline;
+}
+
+.checkbox-container{
+display: none;
+}
+
+.yeslabel{
+display: inline;
+margin-bottom: 0px;
+margin-left: 2px;
+}

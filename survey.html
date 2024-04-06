@@ -49,22 +49,50 @@
                         <input type="email" id="email" name="email" required>
                         <fieldset style="width:fit-content;">
                             <legend>Services:</legend>
-                            <label><input type="checkbox" name="services" value="first"> Massage</label>
-                            <label><input type="checkbox" name="services" value="second"> Facial Treatment</label>
-                            <label><input type="checkbox" name="services" value="third"> Body Treatment</label>
+                            <label><input type="checkbox" name="services" value="massage" > Massage</label>
+                            <label><input type="checkbox" name="services" value="facial treatment"> Facial Treatment</label>
+                            <label><input type="checkbox" name="services" value="body treatment"> Body Treatment</label>
                         </fieldset>
-                        <br>
-                        <label for="health-issues">Have health Issues?</label>
-                        <select id="health-issues" name="health-issues">
-                            <option value="yes">YES</option>
-                            <option value="no">NO</option>
-                        </select>
-                        <label for="food-allergies">Any food Allergies:</label>
-                        <select id="food-allergies" name="food-allergies">
-                            <option value="yes">YES</option>
-                            <option value="no">NO</option>
-                        </select>
-                        <div>
+                        <div class="yeslabel">
+                            <h4>Have health issues?</h4>
+                            <label for="yeshealth" class="yeslabel">Yes</label>
+                            <input type="radio" id="yeshealth" name="health" value="yes" required>
+                            <label for="no1" class="yeslabel">No</label>
+                            <input type="radio" id="no1" name="health" value="no">
+                            <br>
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="highblood" name="highblood">
+                                <label for="highblood">High Blood</label>
+                                <input type="checkbox" id="diabetes" name="diabetes">
+                                <label for="diabetes">Diabetes</label>
+                                <input type="checkbox" id="headache" name="headache">
+                                <label for="headache">Headache</label>
+                                <input type="checkbox" id="dizziness" name="dizziness">
+                                <label for="dizziness">Dizziness</label>
+                                <input type="checkbox" id="fever" name="fever">
+                                <label for="fever">Fever</label>
+                            </div>
+                        </div>
+                        <div class="yeslabel">
+                            <h4>Any food allergies?</h4>
+                            <label for="yesallergy" class="yeslabel">Yes</label>
+                            <input type="radio" id="yesallergy" name="allergies" value="yes" required>
+                            <label for="no2" class="yeslabel">No</label>
+                            <input type="radio" id="no2" name="allergies" value="no">
+                            <br>
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="eggs" name="eggs">
+                                <label for="eggs">Eggs</label>
+                                <input type="checkbox" id="peanuts" name="peanuts">
+                                <label for="peanuts">Peanuts</label>
+                                <input type="checkbox" id="shellfish" name="shellfish">
+                                <label for="shellfish">Shellfish</label>
+                                <input type="checkbox" id="wheat" name="wheat">
+                                <label for="wheat">Wheat</label>
+                                <input type="checkbox" id="sesames" name="sesames">
+                                <label for="sesames">Sesames</label>
+                            </div>
+                        </div>
                             <p>Additional Comments</p>
                             <textarea id="comments" name="comments" rows="10" cols="100"></textarea>
                         </div>
