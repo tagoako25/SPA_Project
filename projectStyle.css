@@ -189,3 +189,11 @@ footer {
         header span {padding-left: 25%;}
     }
 }
+
+.sitemap a{
+    color:#008793;
+}
+
+ul{
+    list-style-type: none;
+}
