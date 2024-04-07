@@ -136,7 +136,7 @@ h3 {
     width: 100%;
     height: auto;
     padding-top: 2px;
-    background-color: #e8fdff;
+    background-color: #d7fcff;
     border-radius: 18px;
     padding-bottom: 1em;
     padding-left: 1em;
@@ -171,11 +171,68 @@ p a{
 img {
     border-radius: 12px;
     margin: 1em;
-    box-shadow: 8px 8px 8px #777777;
 }
 
 header img {
     box-shadow: none;
+}
+
+.table_massage {
+    text-align: center;
+    border-spacing: 0px;
+    background-color: #f9ffff;
+    border-radius: 18px;
+    padding-top: 1em;
+}
+
+.table_title {
+    font-weight: bold;
+    color: #006871;
+    font-variant: small-caps;
+}
+
+.table_massage td {
+    text-align: center;
+    text-wrap: wrap;
+    font-size:large;
+}
+
+.service_description {
+    vertical-align: top;
+    padding: 2em;
+    padding-bottom: 1em;
+}
+
+.table_massageprice {
+    border-spacing: 0px;
+    background-color: #f9ffff;
+    border-radius: 18px;
+    width: 100%;
+    border: none;
+    padding-bottom: 1em;
+}
+
+
+.table_massageprice td {
+    text-align: left;
+    font-variant: small-caps;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.booking {
+    background-color: #008793;
+    border-radius: 20px;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-size: larger;
+}
+
+.booking:hover {
+    color: #d7fcff;
+    cursor: pointer;
 }
 
 footer {
