@@ -137,23 +137,19 @@ h3 {
 }
 
 .contact_us {
-    width: 100%;
+    width: 60%;
+    margin: auto;
     height: auto;
     padding-top: 2px;
     background-color: #d7fcff;
     border-radius: 18px;
+    /* padding: 2em; */
     padding-bottom: 1em;
-    padding-left: 1em;
-}
-
-.contact_us_image {
-    float: right;
-    width: 30%;
-    padding-top: 2em;
     padding-left: 2em;
-    padding-right: auto;
-    border-radius: 18px;
-
+    padding-right: 1em;
+    
+    
+    /* margin-right: 8px; */
 }
 
 .send_message {
@@ -181,6 +177,10 @@ header img {
     box-shadow: none;
 }
 
+.main_image {
+    text-align: center;
+}
+
 .table_massage {
     text-align: center;
     border-spacing: 0px;
@@ -189,10 +189,11 @@ header img {
     padding-top: 1em;
 }
 
-.table_title {
+.table_massage .table_title {
     font-weight: bold;
     color: #006871;
     font-variant: small-caps;
+    text-align: center;
 }
 
 .table_massage td {
@@ -201,9 +202,12 @@ header img {
     font-size:large;
 }
 
-.service_description {
+.table_massage tr td p {
+    text-align: left;
+    text-wrap: wrap;
+    font-size:large;
     vertical-align: top;
-    padding: 2em;
+    padding: 1em;
     padding-bottom: 1em;
 }
 
@@ -281,4 +285,29 @@ display: none;
 display: inline;
 margin-bottom: 0px;
 margin-left: 2px;
+}
+
+button[type=submit], [type=reset] {
+    font-size: large;
+    border-color: #006871;
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: #f9ffff;
+    background-color: #008793;
+    padding: 1em;
+}
+
+button[type=submit]:hover {
+    font-size: large;
+    border-color: #008793;
+    border-style: solid;
+    font-weight: bolder;
+    color: #008793;
+    background-color: #d7fcff;
+    cursor: pointer;
+}
+
+button[type=reset]:hover {
+    cursor: pointer;
 }
