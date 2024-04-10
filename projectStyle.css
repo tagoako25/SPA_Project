@@ -76,6 +76,10 @@ nav ul {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:large;
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 label, input {
@@ -211,7 +215,6 @@ header img {
     border: none;
     padding-bottom: 1em;
 }
-
 
 .table_massageprice td {
     text-align: left;
