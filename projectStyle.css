@@ -129,11 +129,9 @@ h3 {
 
 .home_gallery {
     text-align: center;
-    padding-top: 1em;
-}
-
-.services_gallery {
-    text-align: center;
+    padding-top: 6px;
+    width: 100%;
+    height: auto;
 }
 
 .contact_us {
@@ -142,20 +140,18 @@ h3 {
     height: auto;
     padding-top: 2px;
     background-color: #d7fcff;
-    border-radius: 18px;
+    border-radius: 24px;
     /* padding: 2em; */
     padding-bottom: 1em;
     padding-left: 2em;
     padding-right: 1em;
-    
-    
     /* margin-right: 8px; */
 }
 
 .send_message {
     width: 210px;
     background-color: #008793;
-    border-radius: 20px;
+    border-radius: 24px;
     padding: 6px;
     text-align: center;
 }
@@ -169,23 +165,89 @@ p a{
 }
 
 img {
-    border-radius: 12px;
+    border-radius: 24px;
     margin: 1em;
 }
 
 header img {
-    box-shadow: none;
+    width: 600px;
+    height: 161px;
+
 }
 
 .main_image {
+    width: 60%;
+    height: auto;
+    border-radius: 24px;
+}
+
+/* .services_image{
+    width: 40%;
+    height: 60%;
+} */
+
+.services_section1 {
+    width: 60%;
+    height: auto;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 2em;
+    padding-bottom: 5em;
+
+    /* background-color: aliceblue;  */
+    border-radius: 24px; 
+
+}
+
+.services_section2 {
+    width: 100%;
+    height: auto;
+    padding-top: 2em;
+}
+
+.services_gallery {
+    width: 40%;
+    height: auto;
     text-align: center;
+    float: right;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+} 
+
+.gallery_images {
+    text-align: center;
+    border-radius: 24px;
+}
+
+a.learnmore {
+    color: #ffffff; 
+    font-variant: small-caps;
+    font-weight: bolder;
+    background-color: #008793;
+    text-decoration: none;
+    padding: 1em 2em 1em 2em;
+    border-radius: 20px;
+    font-size: large;
+}
+
+a.learnmore:visited {
+    color: #ffffff;
+    font-variant: small-caps;
+    font-weight: bolder;
+    background-color: #008793;
+    text-decoration: none;
+}
+
+.learnmore:hover {
+    text-decoration: overline underline;
 }
 
 .table_massage {
     text-align: center;
     border-spacing: 0px;
     background-color: #f9ffff;
-    border-radius: 18px;
+    border-radius: 24px;
     padding-top: 1em;
 }
 
@@ -207,14 +269,14 @@ header img {
     text-wrap: wrap;
     font-size:large;
     vertical-align: top;
-    padding: 1em;
-    padding-bottom: 1em;
+    padding: 1em 2em 2em 1em;
+    /* padding-bottom: 1em; */
 }
 
 .table_massageprice {
     border-spacing: 0px;
     background-color: #f9ffff;
-    border-radius: 18px;
+    border-radius: 24px;
     width: 100%;
     border: none;
     padding-bottom: 1em;
@@ -228,19 +290,44 @@ header img {
     padding-bottom: 1em;
 }
 
-.booking {
-    background-color: #008793;
-    border-radius: 20px;
-    padding: 8px;
-    color: #ffffff;
+table .table_massageprice tr td {
     text-align: center;
-    font-size: larger;
+}
+
+.booking {
+    color: #ffffff; 
+    font-variant: small-caps;
+    font-weight: bolder;
+    background-color: #008793;
+    text-decoration: none;
+    padding: 1em 2em 1em 2em;
+    border-radius: 20px;
+    border-style: none;
+    width: 60%;
+    font-size: large;
+}
+
+.booking:visited {
+    color: #ffffff;
+    font-variant: small-caps;
+    font-weight: bolder;
+    background-color: #008793;
+    text-decoration: none;
 }
 
 .booking:hover {
-    color: #d7fcff;
-    cursor: pointer;
+    text-decoration: overline underline;
 }
+
+.cancellation {
+    width: 100%;
+    padding-top: 4em;
+}
+
+.cancellation ul li{
+    list-style-type: disc;
+}
+
 
 footer {
     text-align: center;
@@ -295,7 +382,7 @@ button[type=submit], [type=reset] {
     font-size: large;
     border-color: #006871;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 24px;
     font-weight: bolder;
     color: #f9ffff;
     background-color: #008793;
