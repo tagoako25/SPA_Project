@@ -14,8 +14,11 @@
 .menu-item{
     width:100%;
     display:block;
-    padding:6px;
-    padding-left: 12px;
+    /* padding:6px; */
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
     text-align: left;
     border:none;
     white-space:normal;
@@ -135,7 +138,7 @@ h3 {
 }
 
 .contact_us {
-    width: 60%;
+    width: 70%;
     margin: auto;
     height: auto;
     padding-top: 2px;
@@ -181,10 +184,23 @@ header img {
     border-radius: 24px;
 }
 
-/* .services_image{
+.home_section {
+    width: 60%;
+    height: auto;
+    padding-top: 1em;
+    padding-right: 6px;
+    padding-bottom: 3em;
+}
+
+.home_image {
     width: 40%;
-    height: 60%;
-} */
+    height: auto;
+    text-align: center;
+    float: right;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+} 
 
 .services_section1 {
     width: 60%;
@@ -192,17 +208,9 @@ header img {
     padding-top: 1em;
     padding-right: 1em;
     padding-left: 2em;
-    padding-bottom: 5em;
-
-    /* background-color: aliceblue;  */
+    padding-bottom: 3em;
     border-radius: 24px; 
 
-}
-
-.services_section2 {
-    width: 100%;
-    height: auto;
-    padding-top: 2em;
 }
 
 .services_gallery {
@@ -269,8 +277,11 @@ a.learnmore:visited {
     text-wrap: wrap;
     font-size:large;
     vertical-align: top;
-    padding: 1em 2em 2em 1em;
-    /* padding-bottom: 1em; */
+    /* text-align: justify; */
+    padding-top: 4px;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
 }
 
 .table_massageprice {
@@ -280,10 +291,10 @@ a.learnmore:visited {
     width: 100%;
     border: none;
     padding-bottom: 1em;
+    padding-left: 1em;
 }
 
 .table_massageprice td {
-    text-align: left;
     font-variant: small-caps;
     padding-top: 1em;
     padding-left: 2em;
@@ -291,8 +302,12 @@ a.learnmore:visited {
 }
 
 table .table_massageprice tr td {
-    text-align: center;
+    text-align: left;
 }
+
+/* table .table_massageprice tr td button {
+    text-align: center;
+} */
 
 .booking {
     color: #ffffff; 
@@ -319,6 +334,10 @@ table .table_massageprice tr td {
     text-decoration: overline underline;
 }
 
+table tr td .bookingbtn {
+    text-align: center;
+}
+
 .cancellation {
     width: 100%;
     padding-top: 4em;
@@ -328,7 +347,13 @@ table .table_massageprice tr td {
     list-style-type: disc;
 }
 
+.cancellation ul li a {
+    color: #008793;
+}
 
+h4 {
+    color: #006871;
+}
 footer {
     text-align: center;
     color: #008793;
