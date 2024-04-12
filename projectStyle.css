@@ -88,6 +88,33 @@ body {
 label, input {
     display:table-cell;
     margin-bottom: 10px;
+    /* padding-right: 4px; */
+}
+
+input[type=text], [type=radio], [type=email], [type=tel] {
+    border-color: #006871;
+    border-style: solid;
+    font-weight: bolder;
+    vertical-align: bottom;
+    padding: 8px;
+}
+
+textarea {
+    border-color: #006871;
+    border-style: solid;
+}
+
+input[type=radio],[type=checkbox] {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+fieldset {
+    padding: 1em;
+    border-color: #006871;
+    margin-top: 16px;
 }
 
 button {
@@ -351,9 +378,14 @@ table tr td .bookingbtn {
     color: #008793;
 }
 
+.container {
+    width: 100%;
+}
+
 h4 {
     color: #006871;
 }
+
 footer {
     text-align: center;
     color: #008793;
